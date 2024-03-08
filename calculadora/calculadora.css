@@ -1,0 +1,116 @@
+header{
+    text-align: center;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(217, 217, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.calculadora{
+    background-color: rgb(135, 135, 135);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px green solid;*/
+    position: relative;
+    width: 480px;
+}
+
+.campo{
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 400%;
+    text-align: right;
+    
+}
+
+.linha{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px red solid;*/
+    margin-top: 10px;
+}
+
+.linha2{
+    display: flex;
+    /*border: 1px yellow solid;*/
+    margin-top: 10px;
+    
+}
+
+.botaoNum{
+    background-color: rgb(239, 239, 239);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    /*border: 1px solid blue;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 400%;
+}
+
+.botaoOp{
+    background-color: rgb(255, 153, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    /*border: 1px solid blue;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 400%;
+}
+
+.botaoResultado{
+    background-color: rgb(255, 153, 0);
+    width: 100px;
+    height: 210px;
+    border-radius: 10px;
+    /*border: 1px solid blue;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 400%;
+    
+}
+
+.botaoNum:hover{
+    background-color: rgb(183, 183, 183);
+}
+
+.botaoOp:hover{
+    background-color: rgb(175, 105, 0);
+}
+
+.botaoResultado:hover{
+    background-color: rgb(175, 105, 0);
+} 

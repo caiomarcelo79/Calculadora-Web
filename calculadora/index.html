@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="calculadora.css">
+
+</head>
+<body>
+    
+    <Header>
+
+        <h1>Calculadora</h1>
+
+    </Header>
+
+    <div class="calculadora">
+
+ 
+        <input type="text" class="campo" placeholder="0" id="resultado" disabled="disabled">
+
+        <div class="linha">
+            <button onclick="calcular('acao', 'C')" type="button" class="botaoOp" style="width: 220px;">C</button>
+            <button onclick="calcular('acao', '/')" type="button" class="botaoOp">/</button>
+            <button onclick="calcular('acao', '*')" type="button" class="botaoOp">*</button>
+        </div>
+        <div class="linha">
+            <button onclick="calcular('valor', 7)" type="button" class="botaoNum">7</button>
+            <button onclick="calcular('valor', 8)" type="button" class="botaoNum">8</button>
+            <button onclick="calcular('valor', 9)" type="button" class="botaoNum">9</button>
+            <button onclick="calcular('acao', '-')" type="button" class="botaoOp">-</button>
+        </div>
+        <div class="linha">
+            <button onclick="calcular('valor', 4)" type="button" class="botaoNum">4</button>
+            <button onclick="calcular('valor', 5)" type="button" class="botaoNum">5</button>
+            <button onclick="calcular('valor', 6)" type="button" class="botaoNum">6</button>
+            <button onclick="calcular('acao', '+')" type="button" class="botaoOp">+</button>
+        </div>
+        <div class="linha2">
+            <button onclick="calcular('valor', 1)" type="button" class="botaoNum">1</button>
+            <button onclick="calcular('valor', 2)" type="button" class="botaoNum">2</button>
+            <button onclick="calcular('valor', 3)" type="button" class="botaoNum">3</button>
+        </div>
+        <div class="linha2">
+            <button onclick="calcular('valor', 0)" type="button" class="botaoNum" style="width: 220px;">0</button>
+            <button onclick="calcular('acao', '.')" type="button" class="botaoNum">,</button>
+        </div>
+            <button onclick="calcular('acao', '=')" type="button" class="botaoResultado">=</button>
+
+
+    </div>
+
+
+        <script src="calculadora.js"></script>
+
+
+
+</body>
+</html>
